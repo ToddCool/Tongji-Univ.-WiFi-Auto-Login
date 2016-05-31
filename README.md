@@ -13,7 +13,7 @@
 2. 将`UserName1`, `PassWord1`替换为你的`tongji.portal`网络账号和密码
 3. 将`UserName2`, `PassWord2`替换为你的`tongji.student.portal`网络账号和密码
 4. 运行：`chmod +x RunMe.sh`
-5. 运行：`./RunMe.sh`[^ggrep_needed]
+5. 运行：`./RunMe.sh`<sup>1</sup>
 
 ## 使用方法
 理论上不需要任何设置，运行`RunMe.sh`文件后`Daemon`便会自动运行。进行完上述操作，你可以尝试去登录页面注销掉网络，等1~2分钟，查看是否网络已经自动验证。如果没有自动验证，这时可以去查看`/Library/Logs/WiFiAutoLogin-errorlogfile.log`，根据其中提示进行后续操作。
@@ -46,8 +46,9 @@ A. 可以
 
 
 
+----
 
-[^ggrep_needed]: 需要`gnu grep`支持，可以使用`homebrew`安装，安装命令为：`brew install grep`. `homebrew`使用请参考[`homebrew github`](http://brew.sh) 
+1: 需要`gnu grep`支持，可以使用`homebrew`安装，安装命令为：`brew install grep`. `homebrew`使用请参考[`homebrew github`](http://brew.sh) 
 
 
 
